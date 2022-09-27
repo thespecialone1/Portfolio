@@ -7,6 +7,15 @@ body{
     margin: 0;
 
 }
+main {
+    display: grid;
+    place-items: centre;
+    min-height: 100vh;
+    position: relative;
+}
+#eyes, #eyes img{
+    position: absolute;
+}
 section {
     display: grid;
     place-items: center;
